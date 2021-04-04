@@ -1,0 +1,20 @@
+{
+  "version": "1.0",
+  "defaultProvider": "cdnjs",
+  "libraries": [
+    {
+      "library": "jquery@3.6.0",
+      "destination": "lib/jquery"
+    },
+    {
+      "library": "jquery-validate@1.19.2",
+      "files": [
+        "localization/messages_pt_BR.js",
+        "localization/methods_pt.js",
+        "additional-methods.js",
+        "jquery.validate.js"
+      ],
+      "destination": "lib/jquery-validate"
+    }
+  ]
+}
